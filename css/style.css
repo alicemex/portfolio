@@ -939,16 +939,17 @@
                         animation-duration: 3s;
                     }
                     .cap p {
-                        padding: 3rem 0;
-                        line-height: 2rem;
-                        font-size: 1.2rem;
+                        padding: 2.5rem 1.2rem;
+                        text-align: justify;
+                        line-height: 1.5rem;
+                        font-size: 1rem;
                     }
                     .cap h1 {
-                        font-size: 4.5rem;
+                        font-size: 1.5rem;
                         color: white;
-                        width: 60vw;
-                        line-height: 1em;
-                        font-weight: 700;
+                        width: 80%;
+                        line-height: 1.5rem;
+                        font-weight: bolder;
                     }
                     .mover {
                         position: relative;
@@ -978,21 +979,38 @@
                         background-color: red;
                     }
                     .second-section {
-                        padding: 4rem;
+                        padding: 4rem 2rem;
                         padding-bottom: 0;
                         color: dimgray;
                     }
-                    h1 {
+                    .second-section h1 {
                         text-align: center;
                         font-weight: 400;
-                        font-size: 3rem;
+                        font-size: 2rem;
                         color: black;
+                        width: 80%;
+                        margin: auto;
+                        float: center;
+                    }
+                    .girar {
+                        background-color: var(--yellow);
+                        height: 2rem;
+                        width: 2rem;
+                        float: left;
+                        left: 5%;
+                        margin: 1.5rem 1rem;
+                        position: absolute;
+                        animation-name: girar;
+                        animation-duration: 3s;
+                        animation-timing-function: ease-in-out;
+                        animation-iteration-count: infinite;
+                        animation-direction: alternate;
                     }
                     .second-section h3 {
                         text-align: justify;
                         font-weight: 500;
-                        font-size: 1.2rem;
-                        width: 80%;
+                        font-size: 1rem;
+                        width: 100%;
                         float: center;
                         margin: auto;
                     }
@@ -1001,7 +1019,7 @@
                     }
                     .second-section hr {
                         margin: 1.5rem auto;
-                        width: 10%;
+                        width: 60%;
                         height: 1.5px;
                         background-color: var(--azul);
                         float: center;
@@ -1018,11 +1036,13 @@
                     .third-section h1 {
                         text-align: left;
                     }
-                    h3 {
+                    .third-section h3 {
                         text-align: justify;
-                        margin: 1rem 0;
-                        font-weight: 400;
-                        font-size: 1.2rem;
+                        font-weight: 500;
+                        font-size: 1rem;
+                        width: 100%;
+                        float: center;
+                        margin: 2rem auto;
                     }
                     p {
                         font-size: small;
@@ -1031,7 +1051,7 @@
                     hr {
                         display: flex;
                         margin: 1rem 0;
-                        width: 10%;
+                        width: 30%;
                         height: 1.5px;
                         background-color: var(--naranja);
                     }
@@ -1116,19 +1136,6 @@
                     .img-one:hover .portfolio-images:before,
                     .img-one:focus .portfolio-images:before {
                         display: block;
-                    }
-                    .girar {
-                        background-color: var(--yellow);
-                        height: 50px;
-                        width: 50px;
-                        margin: 0 12%;
-                        position: absolute;
-                        animation-name: girar;
-                        animation-duration: 3s;
-                        animation-delay: 1s;
-                        animation-timing-function: ease-in-out;
-                        animation-iteration-count: infinite;
-                        animation-direction: alternate;
                     }
                     .services-section {}
                     @keyframes girar {
