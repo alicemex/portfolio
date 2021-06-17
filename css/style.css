@@ -1116,20 +1116,18 @@
                         display: flex;
                         flex-wrap: wrap;
                     }
-                    .fifth-section col-3 {
-                        background-color: red;
-                    }
-                    .img-one {
+                    .fifth-section .col-3 {
+                        width: 50%;
                         cursor: pointer;
                         overflow: hidden;
                     }
-                    .img-one:hover .portfolio-images,
-                    .img-one:focus .portfolio-images {
+                    .fifth-section .col-3:hover .portfolio-images,
+                    .fifth-section .col-3:focus .portfolio-images {
                         transform: scale(1.2);
                     }
                     .portfolio-images {
                         transition: all 1s;
-                        width: 16rem;
+                        width: 100%;
                         align-items: center;
                         justify-content: center;
                     }
@@ -1138,8 +1136,8 @@
                         position: absolute;
                         display: none;
                     }
-                    .img-one:hover span,
-                    .img-one:focus span {
+                    .fifth-section .col-3:hover span,
+                    .fifth-section .col-3:focus span {
                         display: flex;
                     }
                     .portfolio-images img {
@@ -1154,13 +1152,12 @@
                         position: absolute;
                         top: 0;
                         left: 0;
-                        background-color: rgba(68, 68, 68, 0.678);
+                        background-color: rgba(68, 68, 68, 0.478);
                     }
-                    .img-one:hover .portfolio-images:before,
-                    .img-one:focus .portfolio-images:before {
+                    .fifth-section .col-3:hover .portfolio-images:before,
+                    .fifth-section .col-3:focus .portfolio-images:before {
                         display: block;
                     }
-                    .services-section {}
                     @keyframes girar {
                         0% {
                             transform: rotate(0);
