@@ -1115,6 +1115,7 @@
                     .fifth-section .row {
                         display: flex;
                         flex-wrap: wrap;
+                        margin: auto;
                     }
                     .fifth-section .col-3 {
                         width: 50%;
