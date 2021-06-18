@@ -802,6 +802,18 @@
                         --naranja: rgb(252, 55, 0);
                         --blue-ligh: rgb(84, 167, 209);
                     }
+                    .space {
+                        height: 5rem;
+                        ;
+                    }
+                    .col-2 {
+                        width: 50%;
+                        margin: auto 2rem;
+                    }
+                    .col-2 a {
+                        color: var(--naranja);
+                        text-decoration: none;
+                    }
                     .white {
                         color: white;
                     }
@@ -1097,18 +1109,6 @@
                         color: black;
                         padding-right: 3rem;
                     }
-                    .space {
-                        height: 5rem;
-                        ;
-                    }
-                    .col-2 {
-                        width: 50%;
-                        margin: auto 2rem;
-                    }
-                    .col-2 a {
-                        color: var(--naranja);
-                        text-decoration: none;
-                    }
                     .fifth-section {
                         width: 100%;
                     }
@@ -1121,28 +1121,31 @@
                         cursor: pointer;
                         overflow: hidden;
                     }
-                    .fifth-section .col-3:hover .portfolio-images,
-                    .fifth-section .col-3:focus .portfolio-images {
-                        transform: scale(1.2);
-                    }
                     .portfolio-images {
-                        transition: all 1s;
-                        width: 100%;
+                        transition: all 0.5s;
                         align-items: center;
                         justify-content: center;
                     }
                     .portfolio-images span {
-                        color: white;
                         position: absolute;
                         display: none;
                     }
+                    .portfolio-images img {
+                        width: 140%;
+                        height: 15rem;
+                    }
                     .fifth-section .col-3:hover span,
                     .fifth-section .col-3:focus span {
-                        display: flex;
+                        display: block;
+                        margin: 3rem;
+                        float: center;
+                        align-items: center;
+                        font-size: x-large;
+                        color: white;
                     }
-                    .portfolio-images img {
-                        width: 100%;
-                        margin: auto auto -25%;
+                    .fifth-section .col-3:hover .portfolio-images,
+                    .fifth-section .col-3:focus .portfolio-images {
+                        transform: scale(1.2);
                     }
                     .portfolio-images::before {
                         content: "";
@@ -1150,8 +1153,6 @@
                         height: 100%;
                         width: 100%;
                         position: absolute;
-                        top: 0;
-                        left: 0;
                         background-color: rgba(68, 68, 68, 0.478);
                     }
                     .fifth-section .col-3:hover .portfolio-images:before,
