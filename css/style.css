@@ -695,40 +695,40 @@
                                 }
                                 .fifth-section {
                                     width: 100%;
-                                    margin: 10vh auto;
+                                    background-color: var(--cian-dark);
                                 }
-                                .img-one {
-                                    width: 25vw;
-                                    height: 40vh;
-                                    position: relative;
+                                .fifth-section .row {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                .fifth-section .col-3 {
+                                    width: 25%;
                                     cursor: pointer;
                                     overflow: hidden;
                                 }
-                                .img-one:hover .portfolio-images,
-                                .img-one:focus .portfolio-images {
-                                    transform: scale(1.2);
-                                }
                                 .portfolio-images {
-                                    width: 100%;
-                                    height: 100%;
                                     transition: all 1s;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
                                 }
                                 .portfolio-images span {
-                                    color: white;
                                     position: absolute;
                                     display: none;
                                 }
-                                .img-one:hover span,
-                                .img-one:focus span {
-                                    display: flex;
-                                }
                                 .portfolio-images img {
-                                    width: 150%;
-                                    height: auto;
-                                    margin: -8% auto auto -25%;
+                                    width: 140%;
+                                    max-height: 25rem;
+                                }
+                                .fifth-section .col-3:hover span,
+                                .fifth-section .col-3:focus span {
+                                    display: flex;
+                                    margin: 3rem;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-size: x-large;
+                                    color: white;
+                                }
+                                .fifth-section .col-3:hover .portfolio-images,
+                                .fifth-section .col-3:focus .portfolio-images {
+                                    transform: scale(1.2);
                                 }
                                 .portfolio-images::before {
                                     content: "";
@@ -736,15 +736,12 @@
                                     height: 100%;
                                     width: 100%;
                                     position: absolute;
-                                    top: 0;
-                                    left: 0;
-                                    background-color: rgba(68, 68, 68, 0.678);
+                                    background-color: rgba(8, 13, 37, 0.678);
                                 }
-                                .img-one:hover .portfolio-images:before,
-                                .img-one:focus .portfolio-images:before {
+                                .fifth-section .col-3:hover .portfolio-images:before,
+                                .fifth-section .col-3:focus .portfolio-images:before {
                                     display: block;
                                 }
-                                .services-section {}
                                 @keyframes girar {
                                     0% {
                                         transform: rotate(0);
