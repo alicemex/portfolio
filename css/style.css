@@ -993,6 +993,7 @@
                                 font-size: xx-large;
                                 color: white;
                                 width: 100%;
+                                text-align: center;
                                 line-height: 2.8rem;
                                 font-weight: bolder;
                             }
@@ -1091,7 +1092,7 @@
                             .third-section .col-4 {
                                 width: 100%;
                             }
-                            .third-section h1 {
+                            h1 {
                                 text-align: left;
                                 font-weight: 400;
                                 font-size: xx-large;
