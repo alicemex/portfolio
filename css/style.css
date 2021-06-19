@@ -106,6 +106,14 @@
                                 color: #383737;
                                 width: 100%;
                             }
+                            .col-2 {
+                                width: 50%;
+                                margin: auto 2rem;
+                            }
+                            .col-2 a {
+                                color: var(--naranja);
+                                text-decoration: none;
+                            }
                             .col-3 {
                                 width: 25%;
                                 margin: 0;
@@ -120,6 +128,9 @@
                             }
                             .col-12 {
                                 width: 100%;
+                            }
+                            .space {
+                                height: 4em;
                             }
                             .new {
                                 background-color: red;
@@ -177,12 +188,12 @@
                             .mover-second {
                                 position: relative;
                                 animation-name: subir;
-                                animation-duration: 1s;
+                                animation-duration: 1.2s;
                             }
-                            .mover-second .mover-third {
+                            .mover-third {
                                 position: relative;
                                 animation-name: subir;
-                                animation-duration: 1s;
+                                animation-duration: 1.5s;
                             }
                             .orange-button {
                                 text-decoration: none;
@@ -193,7 +204,7 @@
                                 cursor: pointer;
                             }
                             .orange-button:hover {
-                                background-color: red;
+                                background-color: var(--naranja);
                             }
                             .second-section {
                                 padding: 4rem;
@@ -242,19 +253,19 @@
                                 font-weight: 400;
                                 font-size: 1.2rem;
                             }
-                            p {
-                                font-size: small;
-                                line-height: 1.5rem;
-                            }
                             hr {
                                 display: flex;
                                 margin: 1rem 0;
-                                width: 10%;
+                                width: 20%;
                                 height: 1.5px;
                                 background-color: var(--naranja);
                             }
                             .fourth-section {
                                 padding: 5% 13%;
+                            }
+                            .fourth-section p {
+                                font-size: large;
+                                line-height: 1.5rem;
                             }
                             .thubnail img {
                                 width: 100%;
@@ -267,23 +278,6 @@
                             }
                             .fourth-section h1 {
                                 text-align: left;
-                            }
-                            .fourth-section h4 {
-                                color: rgb(68, 68, 68);
-                                font-weight: normal;
-                                padding-right: 3rem;
-                            }
-                            .space {
-                                height: 5rem;
-                                ;
-                            }
-                            .col-2 {
-                                width: 50%;
-                                margin: auto 2rem;
-                            }
-                            .col-2 a {
-                                color: var(--naranja);
-                                text-decoration: none;
                             }
                             .fifth-section {
                                 width: 100%;
@@ -810,7 +804,7 @@
                             }
                             .col-2 {
                                 width: 50%;
-                                margin: auto 2rem;
+                                margin: auto;
                             }
                             /*MOBILE*/
                             .col-2 a {
@@ -864,6 +858,7 @@
                                 color: white;
                                 z-index: 1;
                             }
+                            /*MOBILE*/
                             .tache {
                                 position: absolute;
                                 font-size: xx-large;
@@ -872,9 +867,9 @@
                                 color: black;
                                 z-index: 2;
                             }
+                            /*MOBILE*/
                             .header h2 {
                                 padding: 0.8rem 0 1.2rem 2rem;
-                                /*solecito mmlon*/
                             }
                             .header ul {
                                 display: flex;
@@ -886,6 +881,7 @@
                             .header li {
                                 font-size: large;
                             }
+                            /*MOBILE*/
                             .header li:hover {
                                 color: var(--yellow);
                                 cursor: pointer;
@@ -896,6 +892,7 @@
                                 text-decoration: none;
                                 color: white;
                             }
+                            /*MOBILE*/
                             .nav {
                                 left: 0;
                                 top: 2rem;
@@ -920,6 +917,7 @@
                                 width: auto;
                                 border-radius: 10px;
                             }
+                            /*MOBILE*/
                             .pages {
                                 position: absolute;
                                 right: 10vw;
@@ -933,6 +931,7 @@
                                 display: block;
                                 margin: 0.8rem auto;
                             }
+                            /*MOBILE*/
                             .row {
                                 position: relative;
                                 display: flex;
@@ -985,11 +984,11 @@
                                 animation-duration: 2s;
                             }
                             .cap p {
-                                padding: 2.5rem 0rem;
+                                padding: 2rem 0rem;
                                 text-align: justify;
-                                margin: 2rem auto;
+                                margin: 1.2rem auto;
                                 line-height: 2rem;
-                                font-size: x-large;
+                                font-size: large;
                             }
                             .cap h1 {
                                 font-size: xx-large;
@@ -1018,9 +1017,9 @@
                                 text-decoration: none;
                                 background-color: var(--cian-dark);
                                 padding: 1rem 4rem;
-                                margin: 2rem 0;
+                                margin: 1.5rem 0;
                                 color: white;
-                                font-size: x-large;
+                                font-size: large;
                                 font-weight: lighter;
                                 border-radius: 10px;
                                 cursor: pointer;
@@ -1081,45 +1080,45 @@
                                 width: 30%;
                             }
                             .third-section {
-                                background-color: rgba(214, 212, 212, 0.651);
-                                padding: 8% 13%;
+                                background-color: rgb(240, 238, 238);
+                                padding: 10%;
                             }
                             .third-section .row {
                                 position: relative;
                                 display: flex;
                                 flex-wrap: wrap;
                                 color: #383737;
-                                width: 100%;
                             }
                             .third-section .col-4 {
-                                width: 33.33%;
-                                padding: 0 1rem;
+                                width: 100%;
                             }
                             .third-section h1 {
                                 text-align: left;
+                                font-weight: 400;
+                                font-size: xx-large;
                             }
                             .third-section h3 {
                                 text-align: justify;
-                                font-weight: 500;
-                                font-size: 1rem;
+                                font-weight: normal;
+                                font-size: x-large;
                                 width: 100%;
-                                float: center;
-                                margin: 2rem auto;
+                                float: left;
+                                margin: 3rem 0 1rem 0;
                             }
-                            p {
-                                font-size: small;
+                            .third-section p {
+                                font-size: normal;
+                                text-align: justify;
                                 line-height: 1.5rem;
                             }
                             hr {
                                 display: flex;
                                 margin: 1rem 0;
-                                width: 30%;
+                                width: 40%;
                                 height: 1.5px;
                                 background-color: var(--naranja);
                             }
                             .fourth-section {
-                                padding: 5% 13%;
-                                background-color: transparent;
+                                padding: 10% 10% 40% 10%;
                             }
                             .fourth-section .row {
                                 position: relative;
@@ -1128,12 +1127,26 @@
                                 color: #383737;
                                 width: 100%;
                             }
-                            .fourth-section .col-4 {
-                                width: 33.33%;
-                                padding: 0 1rem;
+                            .fourth-section p {
+                                font-size: 1.3rem;
+                                margin: 1rem auto;
+                                text-align: justify;
+                                font-weight: normal;
+                                line-height: 1.4em;
+                            }
+                            .fourth-section a {
+                                color: var(--naranja);
+                            }
+                            .fourth-section .row {
+                                width: 100%;
+                            }
+                            .fourth-section .col-2 {
+                                width: 100%;
+                                background-color: white;
                             }
                             .thubnail img {
                                 width: 100%;
+                                margin: 0 0 2rem 0;
                                 cursor: pointer;
                                 opacity: 0.6;
                                 transition: ease .3s;
@@ -1141,8 +1154,10 @@
                             .thubnail img:hover {
                                 opacity: 1;
                             }
-                            .fourth-section h1 {
+                            .fourth-section h2 {
                                 text-align: left;
+                                font-weight: 400;
+                                font-size: xx-large;
                             }
                             .fourth-section h4 {
                                 color: black;
