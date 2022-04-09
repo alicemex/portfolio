@@ -186,11 +186,17 @@
                                 background-color: transparent;
                                 animation-name: subir;
                                 animation-duration: 1s;
+                                line-height: 1.5rem;
                             }
                             .mover-second {
                                 position: relative;
                                 animation-name: subir;
                                 animation-duration: 1.2s;
+                            }
+                            .mover p {
+                                font-size: 4rem;
+                                font-weight: bold;
+                                color: rgba(153, 153, 153, 0.479);
                             }
                             .mover-third {
                                 position: relative;
