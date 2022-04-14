@@ -7,6 +7,16 @@
                         }
                         /*desktop*/
                         
+                        .mover h2,
+                        h4 {
+                            margin-top: 1rem;
+                            color: var(--naranja);
+                        }
+                        
+                        .mover {
+                            text-align: left;
+                        }
+                        
                         @media screen and (min-width:992px) {
                             body {
                                 overflow-x: hidden;
@@ -159,7 +169,7 @@
                                 align-items: center;
                                 background-color: rgba(5, 5, 15, 0.9);
                                 height: 100vh;
-                                text-align: center;
+                                text-align: left;
                                 max-width: 100%;
                                 padding: 5rem 20%;
                                 color: white;
@@ -180,6 +190,7 @@
                                 width: 60vw;
                                 line-height: 1em;
                                 font-weight: 700;
+                                text-align: left;
                             }
                             .mover {
                                 position: relative;
