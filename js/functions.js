@@ -7,6 +7,8 @@ function closeMenu() {
     header.classList.add("hidden");
     header.classList.remove("show");
     hamburguer.classList.add("show");
+    tache.classList.remove("show");
+    tache.classList.add("hidden");
 
 }
 
