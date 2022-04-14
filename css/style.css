@@ -512,7 +512,7 @@
                             .header li {
                                 font-size: x-small;
                             }
-                            .header li:hover {
+                            .header a:hover, li:hover {
                                 color: var(--yellow);
                                 cursor: pointer;
                             }
